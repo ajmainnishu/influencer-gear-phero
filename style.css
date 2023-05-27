@@ -118,7 +118,7 @@ main {
 .popular {
     width: 1047px;
     height: 1662px;
-    margin: 100px 0 174px 0;
+    margin: 100px 0 100px 0;
 }
 .popular h2 {
     font-family: 'Poppins', sans-serif;
@@ -137,14 +137,13 @@ main {
     justify-content: center;
 }
 .popular-item {
-    width: 329px;
-    height: 476px;
     box-shadow: 2px 2px 20px 2px rgba(211, 211, 211, 0.525);
     padding: 15px;
     border-radius: 5px;
 }
 .popular-item img {
-    width: 100%;
+    width: 300px;
+    height: 256px;
 }
 .popular-item h3 {
     font-family: 'Poppins', sans-serif;
@@ -174,6 +173,20 @@ main {
     font-weight: 700;
     margin-bottom: 0;
     padding-right: 141px;
+}
+.photos-button {
+    margin-top: 50px;
+    text-align: right;
+}
+.popular a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgba(224, 44, 109, 0.87);
+}
+.popular i {
+    margin-left: 8px;
 }
 /* popular collection section end */
 
