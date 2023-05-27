@@ -1,0 +1,87 @@
+/* google font link */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@700&family=Poppins:wght@500;600;700&display=swap');
+
+
+
+
+/* common */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF;
+}
+
+
+
+
+/* header section start */
+header {
+    color: #3A3A3A;
+    padding: 0 8.33%;
+}
+
+/* navigation section start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.63% 0;
+}
+.nav-brand p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+}
+.nav-anchor {
+    display: flex;
+    column-gap: 34px;
+}
+.nav-anchor p {
+    margin: 0;
+}
+/* navigation section end */
+
+/* header banner section start */
+.header-banner {
+    display: flex;
+    justify-content: space-between;
+}
+.header-banner h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    margin-bottom: 0;
+}
+.header-banner p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding-right: 13.13%;
+}
+.header-banner a {
+    color: #FFF;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border-radius: 41px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.header-banner i {
+    margin-left: 8px;
+}
+.header-banner-img {
+    background-image: url(./files/images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.header-banner img{
+    max-width: 440px;
+    max-height: 414px;
+}
+/* header banner section end */
+/* header section end */
